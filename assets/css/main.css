@@ -98,7 +98,7 @@ input, select, textarea {
 	}
 
 	body {
-		background: #312450;
+		background: rgb(255,255,255,0.98);
 	}
 
 		body.is-preload *, body.is-preload *:before, body.is-preload *:after {
@@ -1833,9 +1833,9 @@ input, select, textarea {
 		transition: border-color 0.2s ease;
 		background-color: transparent;
 		border: solid 1px !important;
-		border-color: #636363 !important;
+		border-color: #a5a5a5 !important;
 		border-radius: 3em;
-		color: #636363 !important;
+		color: #a5a5a5 !important;
 		cursor: pointer;
 		display: inline-block;
 		font-size: 0.6em;
@@ -1915,7 +1915,7 @@ input, select, textarea {
 		button.primary,
 		.button.primary {
 			background-color: #ffffff;
-			color: #312450 !important;
+			/* color: #7b7b7b !important; */
 		}
 
 			input[type="submit"].primary:after,
@@ -1945,7 +1945,8 @@ input, select, textarea {
 		input[type="button"]:hover,
 		button:hover,
 		.button:hover {
-			border-color: rgba(255, 255, 255, 0.7) !important;
+			border-color: #000000 !important;
+			color: #000000 !important;
 		}
 
 			input[type="submit"]:hover:after,
@@ -3236,7 +3237,7 @@ input, select, textarea {
 			}
 
 		.wrapper.alt {
-			background-color: #261c3e;
+			background-color: rgb(255,255,255,0.98);
 			/* background-color: #f5f5f5; */
 		}
 
@@ -3246,23 +3247,23 @@ input, select, textarea {
 		}
 
 		.wrapper.style1-alt {
-			background-color: #493382;
+			background-color: rgb(255,255,255,0.98);
 		}
 
 		.wrapper.style2 {
-			background-color: #5052b5;
+			background-color: rgb(255,255,255,0.98);
 		}
 
 		.wrapper.style2-alt {
-			background-color: #3e4094;
+			background-color: rgb(255,255,255,0.98);
 		}
 
 		.wrapper.style3 {
-			background-color: #b74e91;
+			background-color: rgb(255,255,255,0.98);
 		}
 
 		.wrapper.style3-alt {
-			background-color: #953d75;
+			background-color: rgb(255,255,255,0.98);
 		}
 
 		.wrapper.fullscreen {
@@ -3515,7 +3516,7 @@ input, select, textarea {
 
 	#footer > .inner .menu {
 		font-size: 0.8em;
-		color: rgba(255, 255, 255, 0.15);
+		color: #3e3e3e;
 	}
 
 	#header + #wrapper + #footer > .inner {
@@ -3780,7 +3781,7 @@ input, select, textarea {
 			}
 
 			#sidebar nav a:hover {
-				color: rgba(215, 215, 215, 0.8);
+				color: #000000;
 			}
 
 			#sidebar nav a.active {
