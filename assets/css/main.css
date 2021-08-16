@@ -3792,6 +3792,10 @@ input, select, textarea {
 					max-width: 100%;
 				}
 
+		#technologies ul.badges a img {
+			height: 40px;
+		}
+
 		body.is-preload #sidebar > .inner {
 			opacity: 0;
 		}
