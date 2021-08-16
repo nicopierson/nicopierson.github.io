@@ -1,19 +1,19 @@
-Helios by HTML5 UP
+Hyperspace by HTML5 UP
 html5up.net | @ajlkn
 Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 
 
-This is Helios, a brand new site template for HTML5 UP. It's clean, modern, and designed
-to take advantage of larger (well, wider) displays while still being capable of gracefully
-scaling down to fit all manner of smaller ones.
+So I've had the wireframe for this particular design kicking around for some time, but with all
+the other interesting (and in some cases, semi-secret) projects I've been working on it took me
+a little while to get to actually designing and coding it. Fortunately, things have eased up
+enough for me to finaly get around to it, so I'm happy to introduce Hyperspace: a fun, blocky,
+one-page design with a lot of color, a bit of animation, and an additional "generic" page template
+(because hey, even one-page sites usually need an interior page or two). Hope you dig it :)
 
-Demo images* courtesy of Michael Domaradzki, an awesome photographer I met over at
-deviantART. Check out his portfolio here:
+Demo images* courtesy of Unsplash, a radtastic collection of CC0 (public domain) images
+you can use for pretty much whatever.
 
-http://md.photomerchant.net/
-
-(* = Not included! Only meant for use with my own on-site demo, so please do NOT download
-and/or use any of Michaels's work without his explicit permission!)
+(* = not included)
 
 AJ
 aj@lkn.io | @ajlkn
@@ -22,7 +22,7 @@ aj@lkn.io | @ajlkn
 Credits:
 
 	Demo Images:
-		Michael Domaradzki (md.photomerchant.net)
+		Unsplash (unsplash.com)
 
 	Icons:
 		Font Awesome (fontawesome.io)
