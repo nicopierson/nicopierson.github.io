@@ -3794,7 +3794,9 @@ input, select, textarea {
 
 		/* Custom CSS */
 		#technologies ul.badges a img {
-			height: 40px;
+			height: 80px;
+			width: 80px;
+			margin: 5px;
 		}
 
 		img.profile-image {
