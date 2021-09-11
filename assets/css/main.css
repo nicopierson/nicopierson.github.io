@@ -1995,17 +1995,19 @@ input, select, textarea {
 	}
 
 		.features section {
+			width: 100%;
 			padding: 3em 2em 1em 8em ;
-			width: 50%;
 			border-top: solid 1px rgba(255, 255, 255, 0.15);
 			position: relative;
 		}
 
 			.features section:nth-child(-n + 2) {
+				width: 100%;
 				border-top-width: 0;
 			}
 
 			.features section:nth-child(2n) {
+				width: 100%;
 				border-left: solid 1px rgba(255, 255, 255, 0.15);
 			}
 
@@ -2210,13 +2212,25 @@ input, select, textarea {
 		@media screen and (max-width: 480px) {
 
 			.features section {
-				padding: 2em 1.5em 0.1em 1.5em ;
+				padding: 0;
+			}
+
+			.features section span.icon {
+				display: inline-flex;
+				width: 100%;
+				justify-content: center;
+				height: 200px;
 			}
 
 				.features section .icon {
 					left: 0;
 					position: relative;
 					top: 0;
+				}
+
+				.features section span.icon img {
+					height: 200px;
+					width: 200px;
 				}
 
 		}
@@ -3236,6 +3250,12 @@ input, select, textarea {
 
 			}
 
+			@media screen and (max-width: 480px) {
+				.wrapper > .inner {
+					padding: 0;
+				}
+			}
+
 		.wrapper.alt {
 			background-color: rgb(255,255,255,0.98);
 			/* background-color: #f5f5f5; */
@@ -3809,6 +3829,57 @@ input, select, textarea {
 			width: 20rem;
     		height: 28rem;
     		margin-left: 65px;
+		}
+
+		@media screen and (max-width: 480px) {
+			img.photo-technologies {
+				width: 100%;
+				height: 300px;
+				margin: 0;
+			}
+
+			#technologies ul {
+				margin: 0;
+				padding: 0;
+				text-align: center;
+			}
+
+			img.profile-image {
+				width: 250px;
+				height: 250px;
+				text-align: center;
+				margin-left: 0;
+			}
+
+			section#intro {
+				padding: 3em 2em 1em 2em;
+			}
+
+			section#about > section {
+				display: flex;
+				flex-direction: column;
+				justify-content: center;
+				align-items: center;
+			}
+
+			section#contact,
+			footer#footer,
+			section#projects h2,
+			section#projects h3,
+			section#projects p,
+			section#projects ul
+			{
+				padding: 0 2em 0 2em;
+			}
+
+			section.more_projects {
+				margin-top: 25px;
+			}
+
+			section#contact {
+				padding: 0 2em 0 2em;
+			}
+
 		}
 
 		.features img
