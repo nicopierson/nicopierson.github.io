@@ -1995,16 +1995,19 @@ input, select, textarea {
 	}
 
 		.features section {
+			width: 100%;
 			padding: 3em 2em 1em 8em ;
 			border-top: solid 1px rgba(255, 255, 255, 0.15);
 			position: relative;
 		}
 
 			.features section:nth-child(-n + 2) {
+				width: 100%;
 				border-top-width: 0;
 			}
 
 			.features section:nth-child(2n) {
+				width: 100%;
 				border-left: solid 1px rgba(255, 255, 255, 0.15);
 			}
 
@@ -2209,13 +2212,25 @@ input, select, textarea {
 		@media screen and (max-width: 480px) {
 
 			.features section {
-				padding: 2em 1.5em 0.1em 1.5em ;
+				padding: 0;
+			}
+
+			.features section span.icon {
+				display: inline-flex;
+				width: 100%;
+				justify-content: center;
+				height: 200px;
 			}
 
 				.features section .icon {
 					left: 0;
 					position: relative;
 					top: 0;
+				}
+
+				.features section span.icon img {
+					height: 200px;
+					width: 200px;
 				}
 
 		}
