@@ -93,6 +93,13 @@
   }
 }
 
+@media screen and (min-width: 1024px) {
+  .slider img.slider__images-image
+  {
+    height: 50vh;
+  }
+}
+
 @media screen and (max-width: 480px) {
   .slider li.slider__images-item
   {
