@@ -3819,6 +3819,11 @@ input, select, textarea {
 			margin: 5px;
 		}
 
+		#technologies .technologies_container {
+			display: flex;
+			align-items: center;
+		}
+
 		img.profile-image {
 			width: 20rem;
     		height: 20rem;
@@ -3909,6 +3914,10 @@ input, select, textarea {
 		}
 
 		@media screen and (max-width: 1280px) {
+			
+			img.photo-technologies {
+				display: none;
+			}
 
 			#sidebar {
 				height: 3.5em;
