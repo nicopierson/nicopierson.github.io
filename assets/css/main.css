@@ -2226,9 +2226,11 @@ input, select, textarea {
 					left: 0;
 					position: relative;
 					top: 0;
+					margin: 20px 0 20px 0;
 				}
-
-				.features section span.icon img {
+				.features section span.icon a,
+				.features section span.icon img 
+				{
 					height: 200px;
 					width: 200px;
 				}
@@ -3116,7 +3118,7 @@ input, select, textarea {
 
 				.spotlights > section > .image {
 					width: 100%;
-					height: 50vh;
+					height: 500px;
 				}
 
 				.spotlights > section > .content {
@@ -3130,7 +3132,6 @@ input, select, textarea {
 					-ms-transform: translateY(1em);
 					transform: translateY(1em);
 				}
-
 		}
 
 		@media screen and (max-width: 736px) {

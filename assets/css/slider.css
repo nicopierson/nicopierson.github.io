@@ -79,6 +79,15 @@
 .slider__pagers li.active {
   color: #333;
 }
+
+@media screen and (max-width: 480px) {
+  .slider li.slider__images-item
+  {
+    padding: 0;
+    margin: 0;
+  }
+}
+
 @media screen and (max-width: 500px) {
   .slider img.slider__images-image
   {
@@ -86,25 +95,24 @@
   }
 }
 
-@media screen and (min-width: 1280px) {
-  .slider img.slider__images-image
-  {
-    height: 60vh;
-  }
-}
-
 @media screen and (min-width: 1024px) {
   .slider img.slider__images-image
   {
-    height: 50vh;
+    height: 500px;
   }
 }
 
-@media screen and (max-width: 480px) {
-  .slider li.slider__images-item
+@media screen and (min-width: 1280px) {
+  .slider img.slider__images-image
   {
-    padding: 0;
-    margin: 0;
+    height: 600px;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .slider img.slider__images-image
+  {
+    height: 800px;
   }
 }
 
