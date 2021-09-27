@@ -171,7 +171,7 @@ input, select, textarea {
 	}
 
 	p {
-		margin: 0 0 2em 0;
+		margin: 0 0 1em 0;
 	}
 
 	h1, h2, h3, h4, h5, h6 {
@@ -3814,6 +3814,17 @@ input, select, textarea {
 				}
 
 		/* Custom CSS */
+		#intro .links__social_media a img 
+		{
+			transition: .3s;
+		}
+
+		#intro .links__social_media a img:hover
+		{
+			cursor: pointer;
+			filter: invert(99%) sepia(0%) saturate(148%) hue-rotate(148deg) brightness(92%) contrast(81%);
+		}
+
 		#technologies ul.badges a img {
 			height: 80px;
 			width: 80px;
