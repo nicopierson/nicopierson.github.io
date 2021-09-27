@@ -40,7 +40,6 @@
   min-height: 250px;
   min-width: 250px;
   width: 100%;
-  height: 40vh;
 }
 
 .slider__controls {
@@ -79,32 +78,40 @@
 .slider__pagers li.active {
   color: #333;
 }
-@media screen and (max-width: 500px) {
-  .slider img.slider__images-image
-  {
-    height: 300px;
-  }
-}
-
-@media screen and (min-width: 1280px) {
-  .slider img.slider__images-image
-  {
-    height: 60vh;
-  }
-}
-
-@media screen and (min-width: 1024px) {
-  .slider img.slider__images-image
-  {
-    height: 50vh;
-  }
-}
 
 @media screen and (max-width: 480px) {
   .slider li.slider__images-item
   {
     padding: 0;
     margin: 0;
+  }
+}
+
+@media screen and (min-width: 800px) {
+  .slider img.slider__images-image
+  {
+    height: 400px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .slider img.slider__images-image
+  {
+    height: 500px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .slider img.slider__images-image
+  {
+    height: 600px;
+  }
+}
+
+@media screen and (min-width: 2000px) {
+  .slider img.slider__images-image
+  {
+    height: 800px;
   }
 }
 

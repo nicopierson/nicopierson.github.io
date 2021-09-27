@@ -56,7 +56,7 @@ $(sliderControlNext1).on('click', function() {
     sliderResponse1();
     resetTiming1();
 });
-$(sliderControlPrev).on('click', function() {
+$(sliderControlPrev1).on('click', function() {
     sliderTarget1 = $(sliderPagersActive1).index();
     lastElem1 = $(sliderPagers1).length-1;
     sliderTarget1 === 0 ? sliderTarget1 = lastElem1 : sliderTarget1 = sliderTarget1-1;
