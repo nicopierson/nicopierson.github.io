@@ -71,7 +71,7 @@ function resetTiming1() {
     }, sliderSpeed1);
 }
 
-$(window).on('load', function() {
+// $(window).imagesLoaded('load', function() {
 
     // slider timing
     function sliderTiming1() {
@@ -85,5 +85,5 @@ $(window).on('load', function() {
         sliderTiming1();
     }, sliderSpeed1);
 
-});
+// });
     

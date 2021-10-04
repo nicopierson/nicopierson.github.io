@@ -71,7 +71,7 @@ function resetTiming3() {
     }, sliderSpeed3);
 }
 
-$(window).on('load', function() {
+// $(window).on('load', function() {
     // slider timing
     function sliderTiming3() {
         sliderTarget3 = $(sliderPagersActive3).index();
@@ -84,4 +84,4 @@ $(window).on('load', function() {
         sliderTiming3();
     }, sliderSpeed3);
 
-});
+// });
