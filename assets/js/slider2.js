@@ -71,7 +71,7 @@ function resetTiming2() {
     }, sliderSpeed2);
 }
 
-$(window).on('load', function() {
+// $(window).on('load', function() {
 
     // slider timing
     function sliderTiming2() {
@@ -85,4 +85,4 @@ $(window).on('load', function() {
         sliderTiming2();
     }, sliderSpeed2);
 
-});
+// });
