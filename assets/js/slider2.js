@@ -64,21 +64,25 @@ $(sliderControlPrev2).on('click', function() {
     resetTiming2();
 });
 
-// slider timing
-function sliderTiming2() {
-    sliderTarget2 = $(sliderPagersActive2).index();
-    sliderTarget2 === lastElem2 ? sliderTarget2 = 0 : sliderTarget2 = sliderTarget2+1;
-    sliderResponse2();
-}
-
-// slider autoplay
-var timingRun2 = setInterval(function() {
-    sliderTiming2();
-}, sliderSpeed2);
-
 function resetTiming2() {
     clearInterval(timingRun2);
     timingRun2 = setInterval(function() {
-      sliderTiming2();
+        sliderTiming2();
     }, sliderSpeed2);
 }
+
+$(window).on('load', function() {
+
+    // slider timing
+    function sliderTiming2() {
+        sliderTarget2 = $(sliderPagersActive2).index();
+        sliderTarget2 === lastElem2 ? sliderTarget2 = 0 : sliderTarget2 = sliderTarget2+1;
+        sliderResponse2();
+    }
+    
+    // slider autoplay
+    var timingRun2 = setInterval(function() {
+        sliderTiming2();
+    }, sliderSpeed2);
+
+});

@@ -64,21 +64,24 @@ $(sliderControlPrev3).on('click', function() {
     resetTiming3();
 });
 
-// slider timing
-function sliderTiming3() {
-    sliderTarget3 = $(sliderPagersActive3).index();
-    sliderTarget3 === lastElem3 ? sliderTarget3 = 0 : sliderTarget3 = sliderTarget3+1;
-    sliderResponse3();
-}
-
-// slider autoplay
-var timingRun3 = setInterval(function() {
-    sliderTiming3();
-}, sliderSpeed3);
-
 function resetTiming3() {
     clearInterval(timingRun3);
     timingRun3 = setInterval(function() {
-      sliderTiming3();
+        sliderTiming3();
     }, sliderSpeed3);
 }
+
+$(window).on('load', function() {
+    // slider timing
+    function sliderTiming3() {
+        sliderTarget3 = $(sliderPagersActive3).index();
+        sliderTarget3 === lastElem3 ? sliderTarget3 = 0 : sliderTarget3 = sliderTarget3+1;
+        sliderResponse3();
+    }
+
+    // slider autoplay
+    var timingRun3 = setInterval(function() {
+        sliderTiming3();
+    }, sliderSpeed3);
+
+});
